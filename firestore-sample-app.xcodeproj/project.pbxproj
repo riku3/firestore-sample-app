@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		320275BE2648C07F005DC905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 320275BC2648C07F005DC905 /* LaunchScreen.storyboard */; };
 		320275C92648C080005DC905 /* firestore_sample_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320275C82648C080005DC905 /* firestore_sample_appTests.swift */; };
 		320275D42648C080005DC905 /* firestore_sample_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320275D32648C080005DC905 /* firestore_sample_appUITests.swift */; };
+		3202760F2648E5F2005DC905 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3202760E2648E5F2005DC905 /* GoogleService-Info.plist */; };
 		7EC03D6B77E1B8DB26E563B7 /* Pods_firestore_sample_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33B79D7C8889A152D98BFAD /* Pods_firestore_sample_app.framework */; };
 		CE1F023982BD20E6270AD823 /* Pods_firestore_sample_app_firestore_sample_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4EF6EE8ADBE07B9AB0721E /* Pods_firestore_sample_app_firestore_sample_appUITests.framework */; };
 		DBC4D282D5C12844E95C4C30 /* Pods_firestore_sample_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FE43BC733E2EBB7FB839C6 /* Pods_firestore_sample_appTests.framework */; };
@@ -52,6 +53,7 @@
 		320275CF2648C080005DC905 /* firestore-sample-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "firestore-sample-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		320275D32648C080005DC905 /* firestore_sample_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firestore_sample_appUITests.swift; sourceTree = "<group>"; };
 		320275D52648C080005DC905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3202760E2648E5F2005DC905 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		34FE43BC733E2EBB7FB839C6 /* Pods_firestore_sample_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firestore_sample_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28896BDF5CF729C2C948EA7 /* Pods-firestore-sample-app-firestore-sample-appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firestore-sample-app-firestore-sample-appUITests.debug.xcconfig"; path = "Target Support Files/Pods-firestore-sample-app-firestore-sample-appUITests/Pods-firestore-sample-app-firestore-sample-appUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1E8E09B9683E680BE92EAF0 /* Pods-firestore-sample-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firestore-sample-app.release.xcconfig"; path = "Target Support Files/Pods-firestore-sample-app/Pods-firestore-sample-app.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		320275B02648C07B005DC905 /* firestore-sample-app */ = {
 			isa = PBXGroup;
 			children = (
+				3202760E2648E5F2005DC905 /* GoogleService-Info.plist */,
 				320275B12648C07B005DC905 /* AppDelegate.swift */,
 				320275B32648C07B005DC905 /* SceneDelegate.swift */,
 				320275B52648C07B005DC905 /* ViewController.swift */,
@@ -165,7 +168,6 @@
 				CACCB9A7EA743ABE9A006794 /* Pods-firestore-sample-appTests.debug.xcconfig */,
 				BA8851A1BD8D7924766B994D /* Pods-firestore-sample-appTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				320275BE2648C07F005DC905 /* LaunchScreen.storyboard in Resources */,
+				3202760F2648E5F2005DC905 /* GoogleService-Info.plist in Resources */,
 				320275BB2648C07F005DC905 /* Assets.xcassets in Resources */,
 				320275B92648C07B005DC905 /* Main.storyboard in Resources */,
 			);
