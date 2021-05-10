@@ -7,11 +7,21 @@
 
 import UIKit
 
+struct Person {
+    var name: String
+    var age: Int
+}
+
+struct Hobby {
+    var name: String
+    var year: Int
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
 
